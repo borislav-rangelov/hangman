@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">hangman</string>
+    <string name="dictionary_add_word">Add New Word</string>
+</resources>

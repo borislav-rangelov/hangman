@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.borislavrangelov.hangman.activity.GameActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+
+    <TextView
+        android:id="@+id/charactersTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHARACTERS"
+        android:textAlignment="center"
+        android:textColor="?attr/editTextColor"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="14dp" />
+
+    <TextView
+        android:id="@+id/triesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tries: 0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="14dp" />
+
+    <TextView
+        android:id="@+id/chosenTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chosen: A, B, C, D, E, F"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+
+    <EditText
+        android:id="@+id/chooseEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Choose character"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Game" />
+
+</LinearLayout>
