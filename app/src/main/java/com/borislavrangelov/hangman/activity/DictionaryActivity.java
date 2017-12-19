@@ -119,7 +119,7 @@ public class DictionaryActivity extends AppCompatActivity {
                             Toast.makeText(DictionaryActivity.this, "Word is too long...", Toast.LENGTH_LONG).show();
                             return;
                         }
-                        if (!Pattern.compile("^[A-Z\\- ']$").matcher(word).matches()) {
+                        if (!Pattern.compile("^[A-Z\\- ']+$").matcher(word).matches()) {
                             Toast.makeText(DictionaryActivity.this, "Word '" + word + "' should contain only A-Z, '-' and ' '.", Toast.LENGTH_LONG).show();
                             return;
                         }
